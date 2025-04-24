@@ -28,7 +28,7 @@ const monthOfTheYear = (date = new Date()) => {
     "December",
   ];
 
-  return month[date.getMonth()];
+  return months[date.getMonth()];
 };
 
 try {
